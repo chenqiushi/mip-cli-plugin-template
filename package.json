@@ -1,6 +1,6 @@
 {
   "name": "mip-cli-plugin-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "template project for mip 2.0 cli plugin ",
   "main": "index.js",
   "scripts": {
