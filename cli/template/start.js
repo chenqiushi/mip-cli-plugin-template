@@ -3,7 +3,6 @@ exports.cli = {
     description: '测试 Plugin 子命令', // 命令描述信息，显示在命令列表说明中
     name: 'mip2 template start', // 和 usage 一起组成 Usage 信息
     usage: '[name]',
-    noArgs: true, // 不需要接受参数
     options: [
       ['-f, --force', '强制执行'],
       ['-p, --port <value>', '端口号']
