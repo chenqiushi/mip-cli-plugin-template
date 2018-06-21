@@ -1,8 +1,8 @@
 exports.cli = {
   config: {
-    description: 'foo bar 功能测试', // 命令描述信息，显示在命令列表说明中
-    name: 'mip2 foo', // 和 usage 一起组成 Usage 信息
-    usage: '<id>',
+    description: '测试 Plugin 子命令', // 命令描述信息，显示在命令列表说明中
+    name: 'mip2 template start', // 和 usage 一起组成 Usage 信息
+    usage: '[name]',
     options: [
       ['-f, --force', '强制执行'],
       ['-p, --port <value>', '端口号']
@@ -11,9 +11,9 @@ exports.cli = {
       '',
       '  Examples:',
       '    # 测试自定义 plugin 命令',
-      '    $ mip2 foo <id> -f',
+      '    $ mip2 template start [name] -f',
       '    # 测试自定义 plugin 命令',
-      '    $ mip2 foo <id> -p 8888'
+      '    $ mip2 template start [name] -p 8888'
     ].join('\n')
   },
   main: function (args, opts) {
