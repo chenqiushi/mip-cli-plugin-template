@@ -1,12 +1,12 @@
-# mip-cli-plugin-template
+# mip-cli-plugin-foo
 
 ## mip2 cli 用户自定义命令插件 开发示例
 
 ```
 ├── cli
-│   ├── template
-│   │   └── start.js    // 子命令，mip2 template start
-│   └── template.js     // 主命令，mip2 template
+│   ├── foo
+│   │   └── bar.js    // 子命令，mip2 foo bar
+│   └── foo.js     // 主命令，mip2 foo
 ├── index.js
 ├── lib                 // 建议把业务逻辑写在 lib 目录
 ├── package.json
