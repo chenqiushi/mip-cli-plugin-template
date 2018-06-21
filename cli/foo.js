@@ -3,7 +3,6 @@ exports.cli = {
     description: 'foo bar 功能测试', // 命令描述信息，显示在命令列表说明中
     name: 'mip2 foo', // 和 usage 一起组成 Usage 信息
     usage: '<id>',
-    noArgs: false, // 不需要接受参数
     options: [
       ['-f, --force', '强制执行'],
       ['-p, --port <value>', '端口号']
