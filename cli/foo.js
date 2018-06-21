@@ -1,6 +1,6 @@
 exports.cli = {
   config: {
-    description: '测试 Plugin 命令', // 命令描述信息，显示在命令列表说明中
+    description: 'foo bar 功能测试', // 命令描述信息，显示在命令列表说明中
     name: 'mip2 foo', // 和 usage 一起组成 Usage 信息
     usage: '<id>',
     noArgs: false, // 不需要接受参数
